@@ -16,7 +16,6 @@ import time
 SubCode			  = ['S055','S058','S061', 'S064']
 BaseImageFileName = "NFD_MC_v1_image_003_Final.png" # The base face (i.e., the background face)
 
-
 ##########################################################################################
 #################################          PARAMETERS:          ##########################
 ########################################################################################## 
@@ -202,7 +201,6 @@ for p in range(0,len(SubCode)):
 
 		win.close()
 
-
 	headerOutputFile = open(headerOutputFileName+'.txt','w')
 	headerTitles	 = ['SubCode']
 	headerTitles.extend(['imageNumber','numTiles','spaFreq', 'orientation','Contrast','aperture_hpos','aperture_vpos', 'BaseImageFileName'])
@@ -212,11 +210,9 @@ endTime   = time.time()
 totalTime = endTime-startTime
 
 print '##########################'
-print '##########################'
 print 'Code complete'
 print 'You have generated this many images for each subject:'
 print NumImages
 print 'And it took this long to complete in minutes:'
 print totalTime/60
-print '##########################'
 print '##########################'
