@@ -1,5 +1,5 @@
 # NFD
-Detecting faces in visual noise
+Empirical research paradigm for detecting faces in visual noise
 
 Based upon Mangini & Biederman (2004), Making the ineffable explicit: 
 estimating the information employed for face classifications. Cog Science. 28(2).
